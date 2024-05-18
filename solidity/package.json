@@ -1,0 +1,50 @@
+{
+  "name": "oasistestnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "next dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@oasisprotocol/sapphire-contracts": "^0.2.7",
+    "@oasisprotocol/sapphire-hardhat": "^2.16.1",
+    "@oasisprotocol/sapphire-paratime": "^1.2.2",
+    "@openzeppelin/hardhat-upgrades": "^3.0.5",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "typechain": "^8.3.2"
+  },
+  "dependencies": {
+    "@identity.com/gateway-protocol-eth": "^0.0.4",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "cborg": "^4.1.4",
+    "ethers": "^6.11.1",
+    "js-cookie": "^3.0.5",
+    "lucide-react": "^0.363.0",
+    "net": "^1.0.2",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tls": "^0.0.1",
+    "web3modal": "^1.9.12"
+  }
+}
